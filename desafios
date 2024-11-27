@@ -2,16 +2,14 @@
 >>IMC = peso / altura²<<
 
 function calculoIMC(peso, altura) {
-  return peso / (altura * altura);
+  return  imc = peso / (altura * altura);
 }
-let resultado = calculoIMC(82, 1.77);
-console.log(resultado.toFixed(2));
 
 2. Crie uma função que calcule o valor do fatorial de um número passado como parâmetro.
 
 function calculoFatorial(numero){
   let resultado = 1;
-  for (let x = numero; x > 0; x = x- 1){
+  for (let x = numero; x > 0; x = x - 1){
     resultado = resultado * x;
   }
   console.log(resulado);
